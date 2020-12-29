@@ -3,7 +3,7 @@ import "./style.css";
 
 function Hero() {
   return (
-    <div className="jumbotron">
+    <div className="jumbotron hero">
       <h1>Vivir Saludable</h1>
       <h3>
         Llo solo quiero alludarte a aser decisiones para mejorar tu futuro

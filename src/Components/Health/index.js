@@ -2,7 +2,7 @@ import React from "react";
 import './style.css'
 function Health() {
   return (
-    <div className="container rounded">
+    <div className="health">
       <div className="row">
         <div className="col">
       <h1 className="heading">Porque me dedico a la salud?</h1>
