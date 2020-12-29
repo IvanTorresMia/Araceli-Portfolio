@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom'
 function Navbar() {
 
     return (
-        <header className="mb-5 border-bottom">
+        <header className="Nav">
         <nav className="navbar navbar-expand-lg navbar-dark bottom-line">
           <a className="navbar-brand my-header p-3 text relative" href="/">
-            Ivan Torres
+           Araceli Mia
           </a>
           <button
             class="navbar-toggler"
