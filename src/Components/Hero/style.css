@@ -1,0 +1,22 @@
+.jumbotron {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1551632811-561732d1e306?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aGlraW5nfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+  padding: 21%;
+  /* opacity: 80%; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 30px;
+}
