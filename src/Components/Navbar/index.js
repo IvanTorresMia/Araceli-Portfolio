@@ -12,7 +12,7 @@ function Navbar() {
            Araceli Mia
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -20,7 +20,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
@@ -74,3 +74,7 @@ export default Navbar;
 
 
 
+// de salud, mejor calidad de vida 
+// promover cvd 
+// que pueda alludar alas personas sentirce mejor
+// Tener una forma de poder tener salud en tu propia casa. 
