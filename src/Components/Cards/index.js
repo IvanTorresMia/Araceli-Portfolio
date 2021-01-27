@@ -6,8 +6,9 @@ function Cards() {
 
     return (
         <div className="Cards">
-            <h3>Partidarios</h3>
-            
+            <h3>Producto</h3>
+            <div className="row">
+               </div>
         </div>
     )
 }
