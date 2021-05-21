@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/araceli-portfolio/static/css/main.64b764e7.chunk.css",
+    "main.js": "/araceli-portfolio/static/js/main.deaca2b9.chunk.js",
+    "main.js.map": "/araceli-portfolio/static/js/main.deaca2b9.chunk.js.map",
+    "runtime-main.js": "/araceli-portfolio/static/js/runtime-main.460f5470.js",
+    "runtime-main.js.map": "/araceli-portfolio/static/js/runtime-main.460f5470.js.map",
+    "static/js/2.776eac43.chunk.js": "/araceli-portfolio/static/js/2.776eac43.chunk.js",
+    "static/js/2.776eac43.chunk.js.map": "/araceli-portfolio/static/js/2.776eac43.chunk.js.map",
+    "static/js/3.df3b7706.chunk.js": "/araceli-portfolio/static/js/3.df3b7706.chunk.js",
+    "static/js/3.df3b7706.chunk.js.map": "/araceli-portfolio/static/js/3.df3b7706.chunk.js.map",
+    "index.html": "/araceli-portfolio/index.html",
+    "static/css/main.64b764e7.chunk.css.map": "/araceli-portfolio/static/css/main.64b764e7.chunk.css.map",
+    "static/js/2.776eac43.chunk.js.LICENSE.txt": "/araceli-portfolio/static/js/2.776eac43.chunk.js.LICENSE.txt",
+    "static/media/araceli2.1a008707.jpg": "/araceli-portfolio/static/media/araceli2.1a008707.jpg",
+    "static/media/cbdoil.07eca349.jpg": "/araceli-portfolio/static/media/cbdoil.07eca349.jpg",
+    "static/media/painlessoil.6e0ef879.jpg": "/araceli-portfolio/static/media/painlessoil.6e0ef879.jpg",
+    "static/media/producto-1.586c9082.jpg": "/araceli-portfolio/static/media/producto-1.586c9082.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.460f5470.js",
+    "static/js/2.776eac43.chunk.js",
+    "static/css/main.64b764e7.chunk.css",
+    "static/js/main.deaca2b9.chunk.js"
+  ]
+}
