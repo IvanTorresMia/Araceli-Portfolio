@@ -4,6 +4,7 @@ import AboutMe from "../../Components/AboutMe";
 import Products from "../../Components/Products";
 import CardData from "../../CardData";
 import CardContext from "../../context";
+import Testimonials from "../../Components/Testimonials"
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <CardContext.Provider value={CardData}>
         <Products />
       </CardContext.Provider>
+      <Testimonials />
     </div>
   );
 }
