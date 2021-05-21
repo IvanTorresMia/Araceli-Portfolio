@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Araceli-Portfolio/static/css/main.64b764e7.chunk.css",
-    "main.js": "/Araceli-Portfolio/static/js/main.deaca2b9.chunk.js",
-    "main.js.map": "/Araceli-Portfolio/static/js/main.deaca2b9.chunk.js.map",
-    "runtime-main.js": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js",
-    "runtime-main.js.map": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js.map",
-    "static/js/2.776eac43.chunk.js": "/Araceli-Portfolio/static/js/2.776eac43.chunk.js",
-    "static/js/2.776eac43.chunk.js.map": "/Araceli-Portfolio/static/js/2.776eac43.chunk.js.map",
-    "static/js/3.df3b7706.chunk.js": "/Araceli-Portfolio/static/js/3.df3b7706.chunk.js",
-    "static/js/3.df3b7706.chunk.js.map": "/Araceli-Portfolio/static/js/3.df3b7706.chunk.js.map",
+    "main.js": "/Araceli-Portfolio/static/js/main.af6bf8d4.chunk.js",
+    "main.js.map": "/Araceli-Portfolio/static/js/main.af6bf8d4.chunk.js.map",
+    "runtime-main.js": "/Araceli-Portfolio/static/js/runtime-main.a3393733.js",
+    "runtime-main.js.map": "/Araceli-Portfolio/static/js/runtime-main.a3393733.js.map",
+    "static/js/2.dfc2d56c.chunk.js": "/Araceli-Portfolio/static/js/2.dfc2d56c.chunk.js",
+    "static/js/2.dfc2d56c.chunk.js.map": "/Araceli-Portfolio/static/js/2.dfc2d56c.chunk.js.map",
+    "static/js/3.23202d37.chunk.js": "/Araceli-Portfolio/static/js/3.23202d37.chunk.js",
+    "static/js/3.23202d37.chunk.js.map": "/Araceli-Portfolio/static/js/3.23202d37.chunk.js.map",
     "index.html": "/Araceli-Portfolio/index.html",
     "static/css/main.64b764e7.chunk.css.map": "/Araceli-Portfolio/static/css/main.64b764e7.chunk.css.map",
-    "static/js/2.776eac43.chunk.js.LICENSE.txt": "/Araceli-Portfolio/static/js/2.776eac43.chunk.js.LICENSE.txt",
+    "static/js/2.dfc2d56c.chunk.js.LICENSE.txt": "/Araceli-Portfolio/static/js/2.dfc2d56c.chunk.js.LICENSE.txt",
     "static/media/araceli2.1a008707.jpg": "/Araceli-Portfolio/static/media/araceli2.1a008707.jpg",
     "static/media/cbdoil.07eca349.jpg": "/Araceli-Portfolio/static/media/cbdoil.07eca349.jpg",
     "static/media/painlessoil.6e0ef879.jpg": "/Araceli-Portfolio/static/media/painlessoil.6e0ef879.jpg",
     "static/media/producto-1.586c9082.jpg": "/Araceli-Portfolio/static/media/producto-1.586c9082.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd483ab9.js",
-    "static/js/2.776eac43.chunk.js",
+    "static/js/runtime-main.a3393733.js",
+    "static/js/2.dfc2d56c.chunk.js",
     "static/css/main.64b764e7.chunk.css",
-    "static/js/main.deaca2b9.chunk.js"
+    "static/js/main.af6bf8d4.chunk.js"
   ]
 }
