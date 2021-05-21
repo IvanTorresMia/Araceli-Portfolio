@@ -1,13 +1,21 @@
 import React from "react";
-import "./style.css";
 
 function Hero() {
   return (
-    <div className="jumbotron hero">
-      <h1>Vivir Saludable</h1>
-      <h3>
-        Llo solo quiero alludarte a aser decisiones para mejorar tu futuro
-      </h3>
+    <div className="hero">
+      <div className="row hero-row">
+        <div className="col real-col">
+          <h1>Vivir Saludable</h1>
+          <h3>
+          Solo quiero alludarte a aser decisiones para mejorar tu futuro
+          </h3>
+          <button className="btn btn-dark">Contactame</button>
+          <button className="btn btn-dark">Productos</button>
+        </div>
+        <div className="col fake-col">
+        
+        </div>
+      </div>
     </div>
   );
 }
