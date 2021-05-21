@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -7,12 +8,17 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  --primary-green:  #2bb873;
+  --secondary-green: #135f3a;
+}
+
 /* ******************* HOME ******************* */
 
 /* -------------- NAV -------------- */
 
 .Nav {
-  background-color: #2bb873;
+  background-color: var(--primary-green);
   padding: 1rem;
   max-width: 100% !important;
   overflow-x: hidden;
@@ -103,10 +109,16 @@ body {
 }
 
 .product-cards {
+  background-color: var(--primary-green);
   margin: 1rem;
   width: 30rem;
-  border-bottom: 0.5rem solid #2bb873 !important;
+ box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
   padding: 1rem;
+}
+
+.product-cards h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--secondary-green);
 }
 
 .product-cards img {
