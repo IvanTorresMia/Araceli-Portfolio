@@ -1,15 +1,13 @@
 import React from "react";
-import "./style.css";
-import { Link } from 'react-router-dom'
-
+import { Link } from "react-router-dom";
 
 function Navbar() {
-
-    return (
-        <header className="Nav">
-        <nav className="navbar navbar-expand-lg navbar-dark bottom-line">
-          <a className="navbar-brand my-header p-3 text relative" href="/">
-           Araceli Mia
+  return (
+    <header className="Nav">
+      <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-dark">
+          <a className="navbar-brand my-header text relative" href="/">
+            Araceli Mia
           </a>
           <button
             className="navbar-toggler"
@@ -24,7 +22,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item"> 
+              <li className="nav-item">
                 <Link
                   to="/"
                   className={
@@ -63,18 +61,14 @@ function Navbar() {
             </ul>
           </div>
         </nav>
-      </header>
-    )
+      </div>
+    </header>
+  );
 }
 
 export default Navbar;
 
-
-
-
-
-
-// de salud, mejor calidad de vida 
-// promover cvd 
+// de salud, mejor calidad de vida
+// promover cvd
 // que pueda alludar alas personas sentirce mejor
-// Tener una forma de poder tener salud en tu propia casa. 
+// Tener una forma de poder tener salud en tu propia casa.
