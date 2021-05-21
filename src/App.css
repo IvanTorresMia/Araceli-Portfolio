@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-  --primary-green:  #2bb873;
+  --primary-green: #2bb873;
   --secondary-green: #135f3a;
 }
 
@@ -112,12 +112,12 @@ body {
   background-color: var(--primary-green);
   margin: 1rem;
   width: 30rem;
- box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
+  box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
   padding: 1rem;
 }
 
 .product-cards h5 {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: var(--secondary-green);
 }
 
@@ -126,4 +126,25 @@ body {
   min-width: 10rem;
   max-height: 10rem;
   min-height: 10rem;
+}
+
+/* -------------- Testimonials -------------- */
+.carousel {
+  width: 60%;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel h3{
+color: black !important;
+}
+
+.carousel img {
+  width: 28rem;
+  height: 30rem;
+}
+
+.carousel p {
+  color: black;
 }
