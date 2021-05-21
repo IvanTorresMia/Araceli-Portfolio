@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -23,40 +22,10 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link
-                  to="/"
-                  className={
-                    window.location.pathname === "/"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  Home
-                </Link>
+            <a className="nav-link">Home</a>
               </li>
               <li className="nav-item">
-                <Link
-                  to="/AboutMe"
-                  className={
-                    window.location.pathname === "/AboutMe"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  About Me
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/Contact"
-                  className={
-                    window.location.pathname === "/Contact"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                >
-                  Contact
-                </Link>
+              <a className="nav-link">Contact</a>
               </li>
             </ul>
           </div>
