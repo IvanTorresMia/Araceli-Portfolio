@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+const Hero = () => {
   return (
     <div className="hero">
       <div className="row hero-row">
