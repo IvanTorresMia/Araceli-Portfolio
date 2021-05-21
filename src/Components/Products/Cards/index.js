@@ -14,7 +14,7 @@ const Cards = ({ img, title, description, name }) => {
           <p>{description}</p>
         </div>
       </div>
-      <div className="row">
+      <div className="row Card-footer">
         <span>{name}</span>
       </div>
     </div>
