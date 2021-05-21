@@ -6,7 +6,7 @@ import producto1 from '../assets/producto-1.jpg';
 const CardData = [
     {
         img: cbdoil,
-        title: "CBD OIL",
+        title: "CBD OIL 5000",
         name: "ETERNAL",
         description: "alluda con blah blah blah"
     },
@@ -24,7 +24,7 @@ const CardData = [
     },
     {
         img: cbdoil,
-        title: "CBD OIL",
+        title: "CBD OIL 5000",
         name: "ETERNAL",
         description: "alluda con blah blah blah"
     },

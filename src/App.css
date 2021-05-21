@@ -111,23 +111,36 @@ body {
 .product-cards {
   background-color: var(--primary-green);
   margin: 1rem;
-  width: 30rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  max-height: 20rem;
+  min-height: 20rem;
   box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
   padding: 1rem;
+  padding-left: 2rem;
 }
 
-.product-cards h5 {
-  /* font-family: 'Montserrat', sans-serif; */
+.product-cards h3 {
   color: var(--secondary-green);
 }
 
 .product-cards img {
   max-width: 10rem;
   min-width: 10rem;
-  max-height: 10rem;
-  min-height: 10rem;
+  max-height: 12rem;
+  min-height: 12rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.card-info {
+  display: flex;
+	flex-direction: column;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto
+  ;
+}
 /* -------------- Testimonials -------------- */
 .carousel {
   width: 60%;
