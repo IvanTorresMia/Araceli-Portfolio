@@ -1,8 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 body {
-  background-image: url('https://wallpaperaccess.com/full/1586344.jpg');
+  font-family: "Montserrat", sans-serif;
+  max-width: 100% !important;
+  overflow-x: hidden;
 }
 
-/* .App {
-  /* background-color: #2BB873; */
+/* ******************* HOME ******************* */
+
+/* -------------- NAV -------------- */
+
+.Nav {
+  background-color: #2bb873;
+  padding: 1rem;
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+/* -------------- Hero -------------- */
+
+.hero {
+  background-image: url("https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=pexels-scott-webb-305821.jpg&fm=jpg");
+  padding: 18%;
+  opacity: 90%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
   /* text-align: center; */
-/* } */ 
+  font-family: "Montserrat", sans-serif;
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+.hero h1 {
+  font-size: 80px;
+}
+
+.hero h3 {
+  font-size: 30px;
+}
+
+.hero button {
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+.fake-col {
+  width: 2rem;
+}
+
+.real-col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------- About Me -------------- */
+
+.about-me {
+  margin-top: 4rem;
+  height: 35rem;
+  overflow-x: hidden;
+  max-width: 100% !important;
+}
+
+.aboutme-section {
+  text-align: center;
+}
+
+.Card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-container {
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.about-me img {
+  width: 30rem;
+  height: 34rem;
+  border-radius: 1rem;
+}
+
+/* -------------- Products -------------- */
+.products-container {
+  margin-top: 4rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.product-cards {
+  margin: 1rem;
+  width: 30rem;
+  border-bottom: 0.5rem solid #2bb873 !important;
+  padding: 1rem;
+}
+
+.product-cards img {
+  max-width: 10rem;
+  min-width: 10rem;
+  max-height: 10rem;
+  min-height: 10rem;
+}
