@@ -111,8 +111,8 @@ body {
 .product-cards {
   background-color: var(--primary-green);
   margin: 1rem;
-  max-width: 19rem;
-  min-width: 19rem;
+  max-width: 16rem;
+  min-width: 16rem;
   max-height: 21rem;
   min-height: 21rem;
   box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
