@@ -9,8 +9,11 @@ body {
 }
 
 :root {
-  --primary-green: #2bb873;
+  --primary-white: #f7f5f2;
+  --primary-green: #1a7e4e;
   --secondary-green: #135f3a;
+  --primary-blue: #3491e7;
+  --third-green: #c6d1cc;
 }
 
 /* ******************* HOME ******************* */
@@ -48,6 +51,8 @@ body {
 }
 
 .hero button {
+  background-color: var(--primary-blue);
+  border: none;
   margin-right: 0.5rem;
   margin-top: 1rem;
 }
@@ -71,7 +76,26 @@ body {
 }
 
 .aboutme-section {
+  background-color: var(--third-green);
+  border: 3px solid var(--primary-green);
+  border-radius: 10px;
+  padding: 20px;
+  height: 30rem;
+  margin-left: 6rem;
+}
+.aboutme-section h2 {
   text-align: center;
+}
+
+.card-header {
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  border-radius: 30px !important;
+}
+
+.aboutme-section button {
+  background-color: var(--primary-blue);
+  border: none;
 }
 
 .Card {
@@ -86,82 +110,105 @@ body {
   align-items: center !important;
 }
 
+.img-container h3 {
+  margin-top: 0.8rem;
+  font-weight: bold;
+}
+
+.img-container p {
+  font-weight: bold;
+  color: var(--primary-blue)
+}
+
 .about-me img {
-  width: 30rem;
-  height: 34rem;
+  width: 18rem;
+  height: 20rem;
   border-radius: 1rem;
 }
+
+.fade-in {
+  transform: translateY(50px);
+}
+
 
 /* -------------- Products -------------- */
 .products-container {
   margin-top: 4rem;
 }
 
-.card-container {
+.cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(50px);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) ;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp .7s both;
 }
 
 .products-container h2 {
   text-align: center;
   margin-bottom: 2rem;
+
 }
 
 .product-cards {
-  background-color: var(--primary-green);
+  background-color: var(--primary-white);
+  border: 3px solid var(--primary-green);
+  border-radius: 1rem;
+  /* box-shadow: 0.7rem 0.7rem 0.7rem var(--primary-green); */
   margin: 1rem;
   max-width: 16rem;
   min-width: 16rem;
   max-height: 21rem;
   min-height: 21rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem var(--secondary-green);
 }
 
 .product-cards h3 {
   color: var(--secondary-green);
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .product-cards img {
-  /* max-width: 15rem;
-  min-width: 15rem; */
   width: 100%;
   max-height: 12.5rem;
   min-height: 12.5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
 }
 
 .card-info {
-  display: flex;
-	flex-direction: column;
-  align-content: center;
-  border-bottom: 0.1rem solid grey;
+  text-align: center;
 }
 
 .Card-footer {
-  float: right;
-  margin-right: 1rem;
- margin: 0.5rem;
+  color: var(--primary-white);
+  padding-top: 11px;
+  padding-right: 22px;
+  background-color: var(--primary-green);
+  text-align: right;
+  height: 43px;
+  border-bottom-left-radius: 0.9rem;
+  border-bottom-right-radius: 0.9rem;
 }
+.Card-footer p {
+  font-size: 14px;
+}
+
+
+
 /* -------------- Testimonials -------------- */
-.carousel {
-  width: 60%;
-  margin-top: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel h3{
-color: black !important;
-}
-
-.carousel img {
-  width: 28rem;
-  height: 30rem;
-}
-
-.carousel p {
-  color: black;
-}
