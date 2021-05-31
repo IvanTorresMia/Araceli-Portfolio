@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/Araceli-Portfolio/static/css/main.77b1ab52.chunk.css",
-    "main.js": "/Araceli-Portfolio/static/js/main.26bed1b2.chunk.js",
-    "main.js.map": "/Araceli-Portfolio/static/js/main.26bed1b2.chunk.js.map",
-    "runtime-main.js": "/Araceli-Portfolio/static/js/runtime-main.25251773.js",
-    "runtime-main.js.map": "/Araceli-Portfolio/static/js/runtime-main.25251773.js.map",
-    "static/js/2.a9f8b60f.chunk.js": "/Araceli-Portfolio/static/js/2.a9f8b60f.chunk.js",
-    "static/js/2.a9f8b60f.chunk.js.map": "/Araceli-Portfolio/static/js/2.a9f8b60f.chunk.js.map",
-    "static/js/3.570619b3.chunk.js": "/Araceli-Portfolio/static/js/3.570619b3.chunk.js",
-    "static/js/3.570619b3.chunk.js.map": "/Araceli-Portfolio/static/js/3.570619b3.chunk.js.map",
+    "main.css": "/Araceli-Portfolio/static/css/main.269d958d.chunk.css",
+    "main.js": "/Araceli-Portfolio/static/js/main.3a959902.chunk.js",
+    "main.js.map": "/Araceli-Portfolio/static/js/main.3a959902.chunk.js.map",
+    "runtime-main.js": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js",
+    "runtime-main.js.map": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js.map",
+    "static/js/2.b3c4ebba.chunk.js": "/Araceli-Portfolio/static/js/2.b3c4ebba.chunk.js",
+    "static/js/2.b3c4ebba.chunk.js.map": "/Araceli-Portfolio/static/js/2.b3c4ebba.chunk.js.map",
+    "static/js/3.df3b7706.chunk.js": "/Araceli-Portfolio/static/js/3.df3b7706.chunk.js",
+    "static/js/3.df3b7706.chunk.js.map": "/Araceli-Portfolio/static/js/3.df3b7706.chunk.js.map",
     "index.html": "/Araceli-Portfolio/index.html",
-    "static/css/main.77b1ab52.chunk.css.map": "/Araceli-Portfolio/static/css/main.77b1ab52.chunk.css.map",
-    "static/js/2.a9f8b60f.chunk.js.LICENSE.txt": "/Araceli-Portfolio/static/js/2.a9f8b60f.chunk.js.LICENSE.txt",
+    "static/css/main.269d958d.chunk.css.map": "/Araceli-Portfolio/static/css/main.269d958d.chunk.css.map",
+    "static/js/2.b3c4ebba.chunk.js.LICENSE.txt": "/Araceli-Portfolio/static/js/2.b3c4ebba.chunk.js.LICENSE.txt",
     "static/media/araceli2.1a008707.jpg": "/Araceli-Portfolio/static/media/araceli2.1a008707.jpg",
     "static/media/cbdoil.07eca349.jpg": "/Araceli-Portfolio/static/media/cbdoil.07eca349.jpg",
     "static/media/painlessoil.6e0ef879.jpg": "/Araceli-Portfolio/static/media/painlessoil.6e0ef879.jpg",
+    "static/media/person1.2a805193.jpg": "/Araceli-Portfolio/static/media/person1.2a805193.jpg",
+    "static/media/person2.c368d18a.jpg": "/Araceli-Portfolio/static/media/person2.c368d18a.jpg",
+    "static/media/person3.07c256bc.jpg": "/Araceli-Portfolio/static/media/person3.07c256bc.jpg",
     "static/media/producto-1.586c9082.jpg": "/Araceli-Portfolio/static/media/producto-1.586c9082.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.25251773.js",
-    "static/js/2.a9f8b60f.chunk.js",
-    "static/css/main.77b1ab52.chunk.css",
-    "static/js/main.26bed1b2.chunk.js"
+    "static/js/runtime-main.dd483ab9.js",
+    "static/js/2.b3c4ebba.chunk.js",
+    "static/css/main.269d958d.chunk.css",
+    "static/js/main.3a959902.chunk.js"
   ]
 }
