@@ -1,18 +1,31 @@
-import React from "react";
+import { ButtonBase } from "@material-ui/core";
+import React, { useEffect } from "react";
 import Image from "../../assets/araceli2.jpg";
 
 const AboutMe = () => {
+
+  useEffect(() => {
+    const aboutMeItems = document.querySelectorAll(".fade-in");
+
+      aboutMeItems.forEach(item => {
+        let top = item.getBoundingClientRect().top
+        if (top < window.innerHeight -50) {
+          item.classList.add("fade-in-up")
+        }
+      })
+
+  }, [])
+
   return (
     <div className="container">
       <div className="about-me row">
         <div className="col aboutme-section">
-          <div class="Card text-center">
-            <div class="card-header">
-              <h2>Quien Soy?</h2>
+          <div className="Card">
+            <div className="card-header">
+              <h2 className="fade-in">Quien Soy?</h2>
             </div>
-            <div class="card-body">
-              <h4 class="card-title">Araceli Mia</h4>
-              <p class="card-text">
+            <div className="card-body">
+              <p className="card-text fade-in">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 mollitia, molestiae quas vel sint commodi repudiandae
                 consequuntur voluptatum laborum numquam blanditiis harum
@@ -29,7 +42,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col img-container">
-          <img src={Image} alt="about me" />
+          <img className="fade-in" src={Image} alt="about me" />
+          <h3 className="card-title fade-in">Araceli Mia</h3>
+          <p className="fade-in">Vendedora De Productos</p>
         </div>
       </div>
     </div>
