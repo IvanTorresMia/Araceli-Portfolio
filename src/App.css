@@ -6,6 +6,8 @@ body {
   font-family: "Montserrat", sans-serif;
   max-width: 100% !important;
   overflow-x: hidden;
+  /* height: 100%;
+  margin: 0; */
 }
 
 :root {
@@ -122,13 +124,52 @@ body {
 
 .about-me img {
   width: 18rem;
-  height: 20rem;
+  height: 21rem;
   border-radius: 1rem;
 }
 
 .fade-in {
   transform: translateY(50px);
 }
+
+/* about me header */
+
+.about-me-header {
+  background-color: var(--primary-green);
+  padding: 7rem;
+}
+
+.about-me-header h1 {
+  font-weight: bolder;
+  color: var(--primary-blue);
+  font-size: 3rem;
+}
+
+.about-me-header h3 {
+  color: var(--primary-white)
+}
+
+.span2 {
+  font-weight: bold;
+
+}
+
+/* about me hero */
+
+.about-me-hero {
+  padding: 7rem;
+  text-align: center;
+  background-color: var(--primary-green);
+}
+
+.about-me-hero h1 {
+  color: var(--primary-white);
+}
+
+.about-me-hero h4 {
+  font-weight: bold;
+}
+
 
 
 /* -------------- Products -------------- */
@@ -212,3 +253,15 @@ body {
 
 
 /* -------------- Testimonials -------------- */
+
+
+
+
+
+/* -------------- Footer -------------- */
+.footer {
+  background-color: var(--primary-green);
+  text-align: center;
+  margin-top: 5rem;
+  padding: 4rem;
+}
