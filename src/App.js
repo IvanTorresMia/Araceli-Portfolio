@@ -8,14 +8,16 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Navbar />
-        <Route path="/" component={Home} />
+        <Switch>
+        <Route exact path="" component={Home} />
         <Route path="/AboutMe" component={AboutMe} />
+        </Switch>
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
