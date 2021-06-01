@@ -23,12 +23,12 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link to="Araceli-Portfolio/">
+                <Link to="/Araceli-Portfolio/">
                   <a className="nav-link">Home</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="Araceli-Portfolio/">
+                <Link to="/Araceli-Portfolio/AboutMe">
                   {" "}
                   <a className="nav-link">About Me</a>
                 </Link>

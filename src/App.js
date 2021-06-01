@@ -16,8 +16,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path="Araceli-Portfolio/" component={Home} />
-          <Route path="Araceli-Portfolio/AboutMe" component={AboutMe} />
+          <Route exact path="/Araceli-Portfolio/" component={Home} />
+          <Route path="/Araceli-Portfolio/AboutMe" component={AboutMe} />
         </Switch>
         <Footer />
       </div>
