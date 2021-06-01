@@ -1,5 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import AboutMe from "./Pages/AboutMe";
@@ -12,8 +16,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-        <Route exact path="" component={Home} />
-        <Route exact path="AboutMe" component={AboutMe} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/AboutMe" component={AboutMe} />
         </Switch>
         <Footer />
       </div>
