@@ -6,7 +6,7 @@ function Navbar() {
     <header className="Nav">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <a className="navbar-brand my-header text relative" href="/">
+          <a className="navbar-brand my-header text relative" href="Araceli-Portfolio/">
             Araceli Mia
           </a>
           <button
@@ -23,12 +23,12 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link to="/">
+                <Link to="Araceli-Portfolio/">
                   <a className="nav-link">Home</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="AboutMe">
+                <Link to="Araceli-Portfolio/">
                   {" "}
                   <a className="nav-link">About Me</a>
                 </Link>
