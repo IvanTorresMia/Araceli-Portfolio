@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Araceli-Portfolio/static/css/main.269d958d.chunk.css",
-    "main.js": "/Araceli-Portfolio/static/js/main.090fa4bf.chunk.js",
-    "main.js.map": "/Araceli-Portfolio/static/js/main.090fa4bf.chunk.js.map",
+    "main.js": "/Araceli-Portfolio/static/js/main.007d433d.chunk.js",
+    "main.js.map": "/Araceli-Portfolio/static/js/main.007d433d.chunk.js.map",
     "runtime-main.js": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js",
     "runtime-main.js.map": "/Araceli-Portfolio/static/js/runtime-main.dd483ab9.js.map",
     "static/js/2.190ff77f.chunk.js": "/Araceli-Portfolio/static/js/2.190ff77f.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.dd483ab9.js",
     "static/js/2.190ff77f.chunk.js",
     "static/css/main.269d958d.chunk.css",
-    "static/js/main.090fa4bf.chunk.js"
+    "static/js/main.007d433d.chunk.js"
   ]
 }
